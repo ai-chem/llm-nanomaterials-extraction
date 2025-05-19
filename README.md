@@ -6,4 +6,4 @@ The rise of large language models (LLMs) has sparked interest in automating info
 
 ## Citation
 
-Under rewiev in EMNLP 2025
+Under review in EMNLP 2025
