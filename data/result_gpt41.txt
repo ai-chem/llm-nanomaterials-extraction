@@ -1,0 +1,542 @@
+[
+  {
+    "compound_id": "1",
+    "smiles": "c1ccc2c(c1)ncc2/C=C/C3=N/CCN3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 0.73,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "1",
+    "smiles": "c1ccc2c(c1)ncc2/C=C/C3=N/CCN3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.63,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "2",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3ccc4n(c3)cnc4",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.64,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "2",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3ccc4n(c3)cnc4",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.64,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "3",
+    "smiles": "c1ccc2c(c1)ncc2/N=C\\c3ccc(c(c3)OC)OC",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.35,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "3",
+    "smiles": "c1ccc2c(c1)ncc2/N=C\\c3ccc(c(c3)OC)OC",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.65,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "4",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\c3ccc(c(c3)NO)N",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 0.82,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "4",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\c3ccc(c(c3)NO)N",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.72,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "5",
+    "smiles": "c1ccc2c(c1)ncc2/N=C\\c3ccc([N+](=O)[O-])cc3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.67,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "5",
+    "smiles": "c1ccc2c(c1)ncc2/N=C\\c3ccc([N+](=O)[O-])cc3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.67,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "6",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\c3cccc(c3)O",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.67,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "6",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\c3cccc(c3)O",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.67,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "7",
+    "smiles": "c1ccc2c(c1)ncc2/N=C\\c3cccc(c3)[N+](=O)[O-]",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.37,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "7",
+    "smiles": "c1ccc2c(c1)ncc2/N=C\\c3cccc(c3)[N+](=O)[O-]",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.67,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "8",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\N=C/c3cccn3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.59,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "8",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\N=C/c3cccn3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.89,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "9",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\N\\C3=N\\C=N3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.40,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "9",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\N\\C3=N\\C=N3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.70,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "10",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3c[nH]cc3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.16,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "10",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3c[nH]cc3",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.76,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "11",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3ccc(c(c3)OC)OC",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.00,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "11",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3ccc(c(c3)OC)OC",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.60,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "12",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3ccc(c(c3)O)O",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 2.40,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "12",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3ccc(c(c3)O)O",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.19,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "13",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\C(=O)c3c(ncc3)c4ccc(cc4)NO",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.75,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "13",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\C(=O)c3c(ncc3)c4ccc(cc4)NO",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.15,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "14",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3cccc(n3)c4ccc(cc4)[N+](=O)[O-]",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 2.30,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "14",
+    "smiles": "c1ccc2c(c1)ncc2N=C/c3cccc(n3)c4ccc(cc4)[N+](=O)[O-]",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.39,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "15",
+    "smiles": "c1ccc2c(c1)ncc2N=C=c3cccc4n(c3)cnc4",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 2.29,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "15",
+    "smiles": "c1ccc2c(c1)ncc2N=C=c3cccc4n(c3)cnc4",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.39,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "16",
+    "smiles": "c1ccc2c(c1)ncc2N=CC(=O)c3c(nn3)c4ccncc4",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.76,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "16",
+    "smiles": "c1ccc2c(c1)ncc2N=CC(=O)c3c(nn3)c4ccncc4",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.16,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "17",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\C=C(/C=C\\C3=c4c(ncc4)c(n3)C6=O)c5ccc(cc5)OC",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.46,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "17",
+    "smiles": "c1ccc2c(c1)ncc2N=C\\C=C(/C=C\\C3=c4c(ncc4)c(n3)C6=O)c5ccc(cc5)OC",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.16,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "18",
+    "smiles": "c1ccc2c(c1)n(cn2)/C=N/C(=O)c3ccc(cc3)c4c(nn(c4)C5=NCC(O5))",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.43,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "18",
+    "smiles": "c1ccc2c(c1)n(cn2)/C=N/C(=O)c3ccc(cc3)c4c(nn(c4)C5=NCC(O5))",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.13,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "19",
+    "smiles": "COC1=C(C=CC(=C1C)C2=CC=C(C=C2[N+](=O)[O-])C(=O)NC3=CC=C(C=C3[N+](=O)[O-])N)O",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.69,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "19",
+    "smiles": "COC1=C(C=CC(=C1C)C2=CC=C(C=C2[N+](=O)[O-])C(=O)NC3=CC=C(C=C3[N+](=O)[O-])N)O",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.09,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "20",
+    "smiles": "CCCCCCCCCCCCCCCCNC(=O)C1=CC=CC=C1C(=O)OCOC",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.66,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "20",
+    "smiles": "CCCCCCCCCCCCCCCCNC(=O)C1=CC=CC=C1C(=O)OCOC",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.36,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "21",
+    "smiles": "CC1=CN=C(NC2=CC=C(C(C#N)=O)C=C2(C3=CC=CC=C3))C=C1C",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.45,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "21",
+    "smiles": "CC1=CN=C(NC2=CC=C(C(C#N)=O)C=C2(C3=CC=CC=C3))C=C1C",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.15,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "22",
+    "smiles": "CCCCCCCCCN(C1=CC2=NN=C(C=CC3=CC=CC=C3N2)C=C1C(O)=O)",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.76,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "22",
+    "smiles": "CCCCCCCCCN(C1=CC2=NN=C(C=CC3=CC=CC=C3N2)C=C1C(O)=O)",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.15,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "23",
+    "smiles": "C1=CN=C(C(=O)NC2=CC=C(C3=CC=C(C=C3[N+](=O)[O-])C#N)N2)C(C=NN)=C1C",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.78,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "23",
+    "smiles": "C1=CN=C(C(=O)NC2=CC=C(C3=CC=C(C=C3[N+](=O)[O-])C#N)N2)C(C=NN)=C1C",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.18,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "24",
+    "smiles": "CC1=CN=C(C(=O)NC2=CC=C(C3CC=C(N=C3)C=O)N2)C=C1N",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.46,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "24",
+    "smiles": "CC1=CN=C(C(=O)NC2=CC=C(C3CC=C(N=C3)C=O)N2)C=C1N",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.16,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "25",
+    "smiles": "CC1=CN=C(C(=O)NC2=C(NC=CC=C2[N+](=O)[O-])C)C=C1C(N)=O",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.78,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "25",
+    "smiles": "CC1=CN=C(C(=O)NC2=C(NC=CC=C2[N+](=O)[O-])C)C=C1C(N)=O",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.18,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "26",
+    "smiles": "C1=NC2=CC=CC=C2C(=O)NN1C3=CC=C(C=C3[N+](=O)[O-])CC4=CC=CC=C4",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.47,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "26",
+    "smiles": "C1=NC2=CC=CC=C2C(=O)NN1C3=CC=C(C=C3[N+](=O)[O-])CC4=CC=CC=C4",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.17,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "27",
+    "smiles": "CC1=CN=C(C(=O)NC2=CC=C(C3=CC=C(C=C3[N+](=O)[O-])C(=O)N)N2)C(C)=C1N",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.76,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "27",
+    "smiles": "CC1=CN=C(C(=O)NC2=CC=C(C3=CC=C(C=C3[N+](=O)[O-])C(=O)N)N2)C(C)=C1N",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.16,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "28",
+    "smiles": "CCCCCCCCCN=C(`COC=C1C=C(C(=O)N=C2N=C(C(=O)NN2C=N1C=C3)C=C4C=CC(N)=CC4`)C)",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.69,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "28",
+    "smiles": "CCCCCCCCCN=C(`COC=C1C=C(C(=O)N=C2N=C(C(=O)NN2C=N1C=C3)C=C4C=CC(N)=CC4`)C)",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.39,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "29",
+    "smiles": "CCCCCCCCCCCCCCCCNC(=O)C1=CC=CC=C1C(=O)NC2C(COC)CNC=N2",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.67,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "29",
+    "smiles": "CCCCCCCCCCCCCCCCNC(=O)C1=CC=CC=C1C(=O)NC2C(COC)CNC=N2",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.37,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  },
+  {
+    "compound_id": "30",
+    "smiles": "CC1=CN=C(C(=O)NC2=CC=C(C3=NN=C(C(CO)=C3)C4=CC=CC=N4)C=C2)C(C=N)=C1N",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.48,
+    "target_units": "µM",
+    "bacteria": "Escherichia Coli"
+  },
+  {
+    "compound_id": "30",
+    "smiles": "CC1=CN=C(C(=O)NC2=CC=C(C3=NN=C(C(CO)=C3)C4=CC=CC=N4)C=C2)C(C=N)=C1N",
+    "target_type": "pMIC",
+    "target_relation": "=",
+    "target_value": 1.17,
+    "target_units": "µM",
+    "bacteria": "Staphylococcus aureus"
+  }
+]
