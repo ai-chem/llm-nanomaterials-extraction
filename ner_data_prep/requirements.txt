@@ -1,0 +1,9 @@
+pandas
+pydantic>=2
+typer
+rich
+tiktoken
+langdetect
+datasets
+transformers
+torch 

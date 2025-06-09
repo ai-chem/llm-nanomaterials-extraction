@@ -131,4 +131,11 @@ cython_debug/
 .vscode/
 
 # MacOS
-.DS_Store 
+.DS_Store
+
+# NER data prep
+/ner_data_prep/data/
+/ner_data_prep/datasplits/
+/ner_data_prep/test/
+/ner_data_prep/hf_dataset/
+/ner_data_prep/hf_domain_datasets/ 
