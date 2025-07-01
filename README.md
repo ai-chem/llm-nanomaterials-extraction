@@ -1,7 +1,7 @@
 # Evaluation of Large Language Models for Nanomaterials Data Extraction
 
 ## Abstract
-Large language models can automate knowledge extraction, but generic systems struggle with the complexities of nanomaterials research. We intro005 duce MINION, a specialized framework for extracting information from full-text papers in this field. Combining vision and natural language pro008 cessing with a dedicated knowledge base, MIN009 ION converts papers into structured records. It effectively links figures to text, resolves complex chemical entities, and captures critical experimen012 tal details often overlooked by general models. A qualitative evaluation on the CHEMX dataset shows that MINION achieves significantly more accurate and comprehensive extractions, underscoring the need for domain-specific architectures in scientific information mining.
+Large language models can automate knowledge extraction, but generic systems struggle with the complexities of nanomaterials research. We introduce MINION, a specialized framework for extracting information from full-text papers in this field. Combining vision and natural language processing with a dedicated knowledge base, MINION converts papers into structured records. It effectively links figures to text, resolves complex chemical entities, and captures critical experimen012 tal details often overlooked by general models. A qualitative evaluation on the CHEMX dataset shows that MINION achieves significantly more accurate and comprehensive extractions, underscoring the need for domain-specific architectures in scientific information mining.
 
 ## Project Overview
 
