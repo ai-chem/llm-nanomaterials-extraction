@@ -69,6 +69,5 @@ The script runs both model variants (Qwen1.5-7B and Llama-3.1-8B) on all splits 
 - For NER agent: see `ner_data_prep/requirements.txt`
 - For vision agent: see `graph_processing/README.md`
 
-## License & Contact
+## License 
 - License: MIT
-- Questions: [github.com/zjkarina/nanoMINER](https://github.com/zjkarina/nanoMINER)
