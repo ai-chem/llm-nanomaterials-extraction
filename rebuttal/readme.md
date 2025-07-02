@@ -1,19 +1,20 @@
 # Rebuttal Materials
 
-This folder contains supporting evidence and scripts used to evaluate and compare the **zero-shot** and **few-shot** performance of the extraction pipeline described in our submission. The evaluations are based on 7 scientific articles from the nanomaterials domain.
+This folder contains supplementary materials and evaluation scripts used to support the findings presented in our submission. The evaluations demonstrate and compare **zero-shot** and **few-shot** extraction performance from scientific texts.
 
-## Folder Structure
+## Folder Contents
 
-- **`calc/`**  
-  Contains the evaluation script used to compute precision, recall, and F1 scores across all target fields.
+- **`calc.py`**  
+  Evaluation script that computes precision, recall, and F1 score based on parsed outputs and ground truth.
 
-- **`results/`**  
-  Includes:
-  - `zero_shot_results.txt` and `few_shot_results.txt`: Output metrics (TP, FP, FN, precision, recall, F1) for each target field.
-  - Real extraction outputs from both few-shot and zero-shot modes.
+- **`zero_shot.csv`**  
+  Parsed results from the zero-shot extraction run (on 7 test articles).
 
-- **`test/`**  
-  Full set of **7 evaluation articles**, including main texts and associated supplementary information (SI), used for both zero-shot and few-shot testing.
+- **`few_shot.csv`**  
+  Parsed results from the few-shot extraction run (same 7 test articles).
 
-- **`example/`**  
-  A randomly selected scientific article used as an **in-context prompt** for few-shot experiments.
+- **`example.zip`**  
+  Contains a single example article used as an in-context prompt for few-shot inference.
+
+- **`test.zip`**  
+  Contains the full set of **7 evaluation articles**, including main text and supplementary information (SI).
