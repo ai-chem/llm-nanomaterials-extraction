@@ -1,0 +1,23 @@
+# Core dependencies for Vision Pipeline
+PyMuPDF  # For PDF processing (fitz) - latest version
+Pillow  # Image processing
+numpy  # Numerical operations
+
+# Deep Learning
+torch  # PyTorch for YOLO
+torchvision  # Computer vision utilities
+ultralytics  # YOLO implementation
+
+# VLM and API
+openai  # OpenAI API client for VLM
+python-dotenv  # Environment variables
+pydantic  # Data validation
+
+# Data processing
+pandas  # Data manipulation
+tqdm  # Progress bars
+
+# Additional utilities
+requests  # HTTP requests
+aiohttp  # Async HTTP
+typing-extensions  # Type hints

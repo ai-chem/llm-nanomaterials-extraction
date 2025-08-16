@@ -1,0 +1,66 @@
+# Environment and credentials
+.env
+*.env
+.env.*
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Data files (too large for repo)
+*.pdf
+*.zip
+extracted_pdfs/
+datasets/
+*.csv
+
+# Test files and outputs
+test_*.py
+test_crops/
+test_*.json
+vision_results/
+results/
+output/
+
+# Logs
+*.log
+vision_pipeline_*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+best.pt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation drafts
+VISION_PIPELINE_README.md
+DATASET_SPECIFIC_UPDATE.md
+claude-vision-run.md
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+temp/
+tmp/

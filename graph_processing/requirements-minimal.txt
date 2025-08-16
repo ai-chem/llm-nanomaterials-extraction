@@ -1,0 +1,10 @@
+# Minimal dependencies for testing Vision Pipeline
+PyMuPDF  # For PDF processing (fitz)
+Pillow  # Image processing
+numpy  # Numerical operations
+openai  # OpenAI API client for VLM
+python-dotenv  # Environment variables
+pydantic  # Data validation
+pandas  # Data manipulation
+tqdm  # Progress bars
+requests  # HTTP requests
