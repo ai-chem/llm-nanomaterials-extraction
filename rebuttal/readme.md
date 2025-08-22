@@ -1,4 +1,4 @@
-# Rebuttal Materials
+# Zero/few Shot Materials
 
 This folder contains supplementary materials and evaluation scripts used to support the findings presented in our submission. The evaluations demonstrate and compare **zero-shot** and **few-shot** extraction performance from scientific texts.
 
