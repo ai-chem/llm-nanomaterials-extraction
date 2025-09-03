@@ -1,0 +1,45 @@
+{
+  "total_files": 0,
+  "datasets": {
+    "synergy": {
+      "files": [],
+      "params_to_extract": [
+        "NP_size_avg_nm",
+        "zeta_potential_mV",
+        "CI"
+      ]
+    },
+    "cytox": {
+      "files": [],
+      "params_to_extract": [
+        "IC50_ug_per_ml",
+        "Cell_type",
+        "Cell_viability"
+      ]
+    },
+    "magnetic": {
+      "files": [],
+      "params_to_extract": [
+        "Ms_emu_per_g",
+        "Mr_emu_per_g",
+        "Hc_Oe"
+      ]
+    },
+    "nanozymes": {
+      "files": [],
+      "params_to_extract": [
+        "Km_value",
+        "Vmax_value",
+        "Kcat_value"
+      ]
+    },
+    "seltox": {
+      "files": [],
+      "params_to_extract": [
+        "IC50_ug_per_ml",
+        "Cell_type",
+        "SI"
+      ]
+    }
+  }
+}

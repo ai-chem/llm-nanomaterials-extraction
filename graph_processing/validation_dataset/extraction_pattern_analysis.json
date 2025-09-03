@@ -1,0 +1,108 @@
+{
+  "analysis": {
+    "total_files": 20,
+    "total_extractions": 0,
+    "extraction_types": {
+      "table": 17
+    },
+    "common_patterns": {},
+    "text_statistics": {},
+    "dataset_specific": {
+      "synergy": {
+        "files": 4,
+        "total_analyses": 0,
+        "total_tables": 3,
+        "patterns": {},
+        "sample_extractions": []
+      },
+      "cytox": {
+        "files": 4,
+        "total_analyses": 0,
+        "total_tables": 4,
+        "patterns": {},
+        "sample_extractions": []
+      },
+      "magnetic": {
+        "files": 4,
+        "total_analyses": 0,
+        "total_tables": 4,
+        "patterns": {},
+        "sample_extractions": []
+      },
+      "nanozymes": {
+        "files": 4,
+        "total_analyses": 0,
+        "total_tables": 3,
+        "patterns": {},
+        "sample_extractions": []
+      },
+      "seltox": {
+        "files": 4,
+        "total_analyses": 0,
+        "total_tables": 3,
+        "patterns": {},
+        "sample_extractions": []
+      }
+    }
+  },
+  "identified_issues": [
+    "\u041d\u0435\u0442 \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0445 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0439 \u0442\u0435\u043a\u0441\u0442\u0430",
+    "\u041d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b \u0447\u0438\u0441\u043b\u043e\u0432\u044b\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u0432 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u044f\u0445",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 synergy: \u043d\u0435\u0442 \u0430\u043d\u0430\u043b\u0438\u0437\u043e\u0432 \u0433\u0440\u0430\u0444\u0438\u043a\u043e\u0432",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 synergy: \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b \u0446\u0435\u043b\u0435\u0432\u044b\u0435 \u043f\u0430\u0442\u0442\u0435\u0440\u043d\u044b",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 cytox: \u043d\u0435\u0442 \u0430\u043d\u0430\u043b\u0438\u0437\u043e\u0432 \u0433\u0440\u0430\u0444\u0438\u043a\u043e\u0432",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 cytox: \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b \u0446\u0435\u043b\u0435\u0432\u044b\u0435 \u043f\u0430\u0442\u0442\u0435\u0440\u043d\u044b",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 magnetic: \u043d\u0435\u0442 \u0430\u043d\u0430\u043b\u0438\u0437\u043e\u0432 \u0433\u0440\u0430\u0444\u0438\u043a\u043e\u0432",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 magnetic: \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b \u0446\u0435\u043b\u0435\u0432\u044b\u0435 \u043f\u0430\u0442\u0442\u0435\u0440\u043d\u044b",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 nanozymes: \u043d\u0435\u0442 \u0430\u043d\u0430\u043b\u0438\u0437\u043e\u0432 \u0433\u0440\u0430\u0444\u0438\u043a\u043e\u0432",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 nanozymes: \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b \u0446\u0435\u043b\u0435\u0432\u044b\u0435 \u043f\u0430\u0442\u0442\u0435\u0440\u043d\u044b",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 seltox: \u043d\u0435\u0442 \u0430\u043d\u0430\u043b\u0438\u0437\u043e\u0432 \u0433\u0440\u0430\u0444\u0438\u043a\u043e\u0432",
+    "\u0414\u0430\u0442\u0430\u0441\u0435\u0442 seltox: \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b \u0446\u0435\u043b\u0435\u0432\u044b\u0435 \u043f\u0430\u0442\u0442\u0435\u0440\u043d\u044b"
+  ],
+  "prompt_improvements": {
+    "general": [
+      {
+        "issue": "\u041c\u043e\u0434\u0435\u043b\u044c \u043d\u0435 \u0438\u0437\u0432\u043b\u0435\u043a\u0430\u0435\u0442 \u0447\u0438\u0441\u043b\u043e\u0432\u044b\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f",
+        "suggestion": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u044f\u0432\u043d\u043e\u0435 \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u043d\u0430 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0435 \u0447\u0438\u0441\u0435\u043b",
+        "example_prompt": "Extract ALL numerical values with their units. Focus on exact numbers from axes, labels, and data points."
+      }
+    ],
+    "dataset_specific": {
+      "synergy": [
+        {
+          "parameter": "NP_size_avg_nm",
+          "prompt": "Look for particle size or diameter values in nanometers (nm). Check graph axes, legends, and labels.",
+          "extraction_pattern": "size.*?(\\d+\\.?\\d*)\\s*nm"
+        },
+        {
+          "parameter": "zeta_potential_mV",
+          "prompt": "Find zeta potential values in millivolts (mV). Can be positive or negative.",
+          "extraction_pattern": "zeta.*?([+-]?\\d+\\.?\\d*)\\s*mV"
+        }
+      ],
+      "cytox": [
+        {
+          "parameter": "IC50_ug_per_ml",
+          "prompt": "Extract IC50 values, usually in \u03bcg/ml or similar units. Look for dose-response curves.",
+          "extraction_pattern": "IC50.*?(\\d+\\.?\\d*)\\s*[\u03bcu]g/ml"
+        }
+      ],
+      "magnetic": [
+        {
+          "parameter": "Ms_emu_per_g",
+          "prompt": "Find saturation magnetization (Ms) in emu/g from hysteresis loops.",
+          "extraction_pattern": "Ms.*?(\\d+\\.?\\d*)\\s*emu/g"
+        }
+      ],
+      "nanozymes": [],
+      "seltox": []
+    },
+    "examples": []
+  },
+  "recommendations": [
+    "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0431\u043e\u043b\u0435\u0435 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0434\u043b\u044f \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u044f \u0447\u0438\u0441\u0435\u043b",
+    "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043f\u0440\u0438\u043c\u0435\u0440\u044b \u043e\u0436\u0438\u0434\u0430\u0435\u043c\u043e\u0433\u043e \u0444\u043e\u0440\u043c\u0430\u0442\u0430 \u0432\u044b\u0432\u043e\u0434\u0430",
+    "\u0423\u043a\u0430\u0437\u0430\u0442\u044c \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0435 \u0435\u0434\u0438\u043d\u0438\u0446\u044b \u0438\u0437\u043c\u0435\u0440\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u0430\u0436\u0434\u043e\u0433\u043e \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430",
+    "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c few-shot \u043f\u0440\u0438\u043c\u0435\u0440\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0445 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0439"
+  ]
+}

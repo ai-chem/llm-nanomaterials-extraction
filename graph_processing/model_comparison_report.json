@@ -1,0 +1,377 @@
+{
+  "glm": {
+    "model": "GLM-4.1V-9B",
+    "datasets": {
+      "synergy/train": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 470,
+          "extraction_rate": 0.0
+        }
+      },
+      "synergy/test": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 147,
+          "extraction_rate": 0.0
+        }
+      },
+      "cytox/train": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 987,
+          "extraction_rate": 0.0
+        }
+      },
+      "cytox/test": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 260,
+          "extraction_rate": 0.0
+        }
+      },
+      "magnetic/train": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 2159,
+          "extraction_rate": 0.0
+        }
+      },
+      "magnetic/test": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 494,
+          "extraction_rate": 0.0
+        }
+      },
+      "nanozymes/train": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 2662,
+          "extraction_rate": 0.0
+        }
+      },
+      "nanozymes/test": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 566,
+          "extraction_rate": 0.0
+        }
+      },
+      "seltox/train": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 996,
+          "extraction_rate": 0.0
+        }
+      },
+      "seltox/test": {
+        "total_files": 0,
+        "processed": 0,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 253,
+          "extraction_rate": 0.0
+        }
+      }
+    }
+  },
+  "gemma": {
+    "model": "Gemma-3-27b",
+    "datasets": {
+      "synergy/train": {
+        "total_files": 69,
+        "processed": 69,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 0,
+          "extraction_rate": 0.0
+        }
+      },
+      "synergy/test": {
+        "total_files": 18,
+        "processed": 18,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 0,
+          "extraction_rate": 0.0
+        }
+      },
+      "cytox/train": {
+        "total_files": 139,
+        "processed": 139,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 0,
+          "extraction_rate": 0.0
+        }
+      },
+      "cytox/test": {
+        "total_files": 35,
+        "processed": 35,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 0,
+          "extraction_rate": 0.0
+        }
+      },
+      "magnetic/train": {
+        "total_files": 301,
+        "processed": 301,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 0,
+          "extraction_rate": 0.0
+        }
+      },
+      "magnetic/test": {
+        "total_files": 76,
+        "processed": 76,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 0,
+          "extraction_rate": 0.0
+        }
+      },
+      "nanozymes/train": {
+        "total_files": 316,
+        "processed": 316,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 2508,
+          "extraction_rate": 0.0
+        }
+      },
+      "nanozymes/test": {
+        "total_files": 79,
+        "processed": 79,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 544,
+          "extraction_rate": 0.0
+        }
+      },
+      "seltox/train": {
+        "total_files": 131,
+        "processed": 131,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 0,
+          "extraction_rate": 0.0
+        }
+      },
+      "seltox/test": {
+        "total_files": 33,
+        "processed": 33,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 0,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 0,
+          "extraction_rate": 0.0
+        }
+      }
+    }
+  },
+  "qwen": {
+    "model": "Qwen2.5-VL-72B",
+    "datasets": {
+      "synergy/train": {
+        "total_files": 69,
+        "processed": 69,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 160,
+          "null_values": 863,
+          "numeric_values": 133,
+          "pages_analyzed": 342,
+          "extraction_rate": 15.640273704789834
+        }
+      },
+      "synergy/test": {
+        "total_files": 18,
+        "processed": 18,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 51,
+          "null_values": 213,
+          "numeric_values": 46,
+          "pages_analyzed": 89,
+          "extraction_rate": 19.318181818181817
+        }
+      },
+      "cytox/train": {
+        "total_files": 139,
+        "processed": 139,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 735,
+          "null_values": 1346,
+          "numeric_values": 26,
+          "pages_analyzed": 695,
+          "extraction_rate": 35.31955790485344
+        }
+      },
+      "cytox/test": {
+        "total_files": 35,
+        "processed": 35,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 173,
+          "null_values": 352,
+          "numeric_values": 8,
+          "pages_analyzed": 175,
+          "extraction_rate": 32.95238095238095
+        }
+      },
+      "magnetic/train": {
+        "total_files": 301,
+        "processed": 301,
+        "failed": 2,
+        "quality": {
+          "values_extracted": 729,
+          "null_values": 3498,
+          "numeric_values": 455,
+          "pages_analyzed": 1478,
+          "extraction_rate": 17.246273953158266
+        }
+      },
+      "magnetic/test": {
+        "total_files": 76,
+        "processed": 76,
+        "failed": 1,
+        "quality": {
+          "values_extracted": 179,
+          "null_values": 871,
+          "numeric_values": 155,
+          "pages_analyzed": 362,
+          "extraction_rate": 17.047619047619047
+        }
+      },
+      "nanozymes/train": {
+        "total_files": 316,
+        "processed": 316,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 375,
+          "null_values": 4287,
+          "numeric_values": 113,
+          "pages_analyzed": 1572,
+          "extraction_rate": 8.043758043758045
+        }
+      },
+      "nanozymes/test": {
+        "total_files": 79,
+        "processed": 79,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 141,
+          "null_values": 1020,
+          "numeric_values": 42,
+          "pages_analyzed": 387,
+          "extraction_rate": 12.144702842377262
+        }
+      },
+      "seltox/train": {
+        "total_files": 131,
+        "processed": 131,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 549,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 654,
+          "extraction_rate": 100.0
+        }
+      },
+      "seltox/test": {
+        "total_files": 33,
+        "processed": 33,
+        "failed": 0,
+        "quality": {
+          "values_extracted": 141,
+          "null_values": 0,
+          "numeric_values": 0,
+          "pages_analyzed": 164,
+          "extraction_rate": 100.0
+        }
+      }
+    }
+  }
+}

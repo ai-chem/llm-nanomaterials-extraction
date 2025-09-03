@@ -1,0 +1,232 @@
+{
+  "synergy_train": {
+    "glm": {
+      "total_files": 69,
+      "files_with_graphs": 67,
+      "files_with_tables": 45,
+      "total_graphs": 470,
+      "total_tables": 99,
+      "avg_graphs_per_file": 7.014925373134329,
+      "avg_tables_per_file": 2.2,
+      "extraction_success_rate": 162.31884057971016
+    },
+    "gemma": {
+      "total_files": 69,
+      "files_with_graphs": 0,
+      "files_with_tables": 43,
+      "total_graphs": 0,
+      "total_tables": 90,
+      "avg_graphs_per_file": 0,
+      "avg_tables_per_file": 2.0930232558139537,
+      "extraction_success_rate": 62.31884057971014
+    },
+    "common_files": 69
+  },
+  "synergy_test": {
+    "glm": {
+      "total_files": 18,
+      "files_with_graphs": 18,
+      "files_with_tables": 12,
+      "total_graphs": 147,
+      "total_tables": 27,
+      "avg_graphs_per_file": 8.166666666666666,
+      "avg_tables_per_file": 2.25,
+      "extraction_success_rate": 166.66666666666669
+    },
+    "gemma": {
+      "total_files": 18,
+      "files_with_graphs": 0,
+      "files_with_tables": 12,
+      "total_graphs": 0,
+      "total_tables": 23,
+      "avg_graphs_per_file": 0,
+      "avg_tables_per_file": 1.9166666666666667,
+      "extraction_success_rate": 66.66666666666666
+    },
+    "common_files": 18
+  },
+  "cytox_train": {
+    "glm": {
+      "total_files": 139,
+      "files_with_graphs": 137,
+      "files_with_tables": 61,
+      "total_graphs": 987,
+      "total_tables": 97,
+      "avg_graphs_per_file": 7.204379562043796,
+      "avg_tables_per_file": 1.5901639344262295,
+      "extraction_success_rate": 142.44604316546764
+    },
+    "gemma": {
+      "total_files": 139,
+      "files_with_graphs": 0,
+      "files_with_tables": 60,
+      "total_graphs": 0,
+      "total_tables": 87,
+      "avg_graphs_per_file": 0,
+      "avg_tables_per_file": 1.45,
+      "extraction_success_rate": 43.16546762589928
+    },
+    "common_files": 139
+  },
+  "cytox_test": {
+    "glm": {
+      "total_files": 35,
+      "files_with_graphs": 35,
+      "files_with_tables": 16,
+      "total_graphs": 260,
+      "total_tables": 29,
+      "avg_graphs_per_file": 7.428571428571429,
+      "avg_tables_per_file": 1.8125,
+      "extraction_success_rate": 145.7142857142857
+    },
+    "gemma": {
+      "total_files": 35,
+      "files_with_graphs": 0,
+      "files_with_tables": 13,
+      "total_graphs": 0,
+      "total_tables": 18,
+      "avg_graphs_per_file": 0,
+      "avg_tables_per_file": 1.3846153846153846,
+      "extraction_success_rate": 37.142857142857146
+    },
+    "common_files": 35
+  },
+  "magnetic_train": {
+    "glm": {
+      "total_files": 301,
+      "files_with_graphs": 292,
+      "files_with_tables": 144,
+      "total_graphs": 2159,
+      "total_tables": 291,
+      "avg_graphs_per_file": 7.3938356164383565,
+      "avg_tables_per_file": 2.0208333333333335,
+      "extraction_success_rate": 144.85049833887044
+    },
+    "gemma": {
+      "total_files": 301,
+      "files_with_graphs": 0,
+      "files_with_tables": 142,
+      "total_graphs": 0,
+      "total_tables": 281,
+      "avg_graphs_per_file": 0,
+      "avg_tables_per_file": 1.9788732394366197,
+      "extraction_success_rate": 47.176079734219265
+    },
+    "common_files": 301
+  },
+  "magnetic_test": {
+    "glm": {
+      "total_files": 76,
+      "files_with_graphs": 75,
+      "files_with_tables": 25,
+      "total_graphs": 494,
+      "total_tables": 50,
+      "avg_graphs_per_file": 6.586666666666667,
+      "avg_tables_per_file": 2.0,
+      "extraction_success_rate": 131.57894736842107
+    },
+    "gemma": {
+      "total_files": 76,
+      "files_with_graphs": 0,
+      "files_with_tables": 25,
+      "total_graphs": 0,
+      "total_tables": 47,
+      "avg_graphs_per_file": 0,
+      "avg_tables_per_file": 1.88,
+      "extraction_success_rate": 32.89473684210527
+    },
+    "common_files": 76
+  },
+  "nanozymes_train": {
+    "glm": {
+      "total_files": 316,
+      "files_with_graphs": 314,
+      "files_with_tables": 181,
+      "total_graphs": 2662,
+      "total_tables": 307,
+      "avg_graphs_per_file": 8.477707006369426,
+      "avg_tables_per_file": 1.6961325966850829,
+      "extraction_success_rate": 156.64556962025316
+    },
+    "gemma": {
+      "total_files": 316,
+      "files_with_graphs": 314,
+      "files_with_tables": 169,
+      "total_graphs": 2508,
+      "total_tables": 237,
+      "avg_graphs_per_file": 7.987261146496815,
+      "avg_tables_per_file": 1.4023668639053255,
+      "extraction_success_rate": 152.84810126582278
+    },
+    "common_files": 316
+  },
+  "nanozymes_test": {
+    "glm": {
+      "total_files": 79,
+      "files_with_graphs": 79,
+      "files_with_tables": 39,
+      "total_graphs": 566,
+      "total_tables": 55,
+      "avg_graphs_per_file": 7.1645569620253164,
+      "avg_tables_per_file": 1.4102564102564104,
+      "extraction_success_rate": 149.36708860759492
+    },
+    "gemma": {
+      "total_files": 79,
+      "files_with_graphs": 79,
+      "files_with_tables": 34,
+      "total_graphs": 544,
+      "total_tables": 40,
+      "avg_graphs_per_file": 6.886075949367089,
+      "avg_tables_per_file": 1.1764705882352942,
+      "extraction_success_rate": 143.03797468354432
+    },
+    "common_files": 79
+  },
+  "seltox_train": {
+    "glm": {
+      "total_files": 131,
+      "files_with_graphs": 130,
+      "files_with_tables": 96,
+      "total_graphs": 996,
+      "total_tables": 242,
+      "avg_graphs_per_file": 7.661538461538462,
+      "avg_tables_per_file": 2.5208333333333335,
+      "extraction_success_rate": 172.51908396946564
+    },
+    "gemma": {
+      "total_files": 131,
+      "files_with_graphs": 0,
+      "files_with_tables": 33,
+      "total_graphs": 0,
+      "total_tables": 49,
+      "avg_graphs_per_file": 0,
+      "avg_tables_per_file": 1.4848484848484849,
+      "extraction_success_rate": 25.190839694656486
+    },
+    "common_files": 131
+  },
+  "seltox_test": {
+    "glm": {
+      "total_files": 33,
+      "files_with_graphs": 33,
+      "files_with_tables": 24,
+      "total_graphs": 253,
+      "total_tables": 52,
+      "avg_graphs_per_file": 7.666666666666667,
+      "avg_tables_per_file": 2.1666666666666665,
+      "extraction_success_rate": 172.72727272727272
+    },
+    "gemma": {
+      "total_files": 33,
+      "files_with_graphs": 0,
+      "files_with_tables": 6,
+      "total_graphs": 0,
+      "total_tables": 6,
+      "avg_graphs_per_file": 0,
+      "avg_tables_per_file": 1.0,
+      "extraction_success_rate": 18.181818181818183
+    },
+    "common_files": 33
+  }
+}

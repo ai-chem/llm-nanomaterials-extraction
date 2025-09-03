@@ -1,0 +1,322 @@
+{
+  "synergy_train": [
+    {
+      "parameter": "NP_size_avg_nm",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 8
+    },
+    {
+      "parameter": "zeta_potential_mV",
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "accuracy": 0.3333333333333333,
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "parameter": "CI",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "synergy_test": [
+    {
+      "parameter": "NP_size_avg_nm",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 3
+    },
+    {
+      "parameter": "zeta_potential_mV",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "parameter": "CI",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "cytox_train": [
+    {
+      "parameter": "IC50_ug_per_ml",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Cell_type",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Cell_viability",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "cytox_test": [
+    {
+      "parameter": "IC50_ug_per_ml",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Cell_type",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Cell_viability",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "magnetic_train": [
+    {
+      "parameter": "Ms_emu_per_g",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Mr_emu_per_g",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Hc_Oe",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "magnetic_test": [
+    {
+      "parameter": "Ms_emu_per_g",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Mr_emu_per_g",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Hc_Oe",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "nanozymes_train": [
+    {
+      "parameter": "Km_value",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Vmax_value",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Kcat_value",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "nanozymes_test": [
+    {
+      "parameter": "Km_value",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Vmax_value",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Kcat_value",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "seltox_train": [
+    {
+      "parameter": "IC50_ug_per_ml",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Cell_type",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "SI",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ],
+  "seltox_test": [
+    {
+      "parameter": "IC50_ug_per_ml",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "Cell_type",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "parameter": "SI",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  ]
+}
