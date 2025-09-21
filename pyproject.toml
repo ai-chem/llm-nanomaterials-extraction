@@ -1,0 +1,65 @@
+[project]
+name = "llm-nanomaterials-extraction"
+version = "0.1.0"
+description = "Default template for PDM package"
+dependencies = ["requests>=2.32.5", "openai==1.108.1", "python-dotenv>=1.1.1", "pdfplumber>=0.11.7", "langchain==0.3.27", "langchain-openai==0.3.33", "pandas>=2.3.2"]
+requires-python = "==3.12.*"
+readme = "README.md"
+
+
+[tool.pdm]
+distribution = false
+
+# [[tool.pdm.source]]
+# name = "torch-cpu"
+# url = "https://download.pytorch.org/whl/cpu"
+# verify_ssl = true
+
+# [[tool.pdm.source]]
+# name = "torch-cuda-12-1"
+# url = "https://download.pytorch.org/whl/cu121"
+# verify_ssl = true
+
+dependencies = [
+    "openai==1.76.0",
+    "langchain==0.3.24",
+    "elasticsearch<9.0.0,>=8.7.0",
+    "python-dotenv<2.0.0,>=1.0.0",
+    "beautifulsoup4<5.0.0,>=4.12.2",
+    "lxml<5.0.0,>=4.9.2",
+    "tiktoken<1.0.0,>=0.7.0",
+    "fastapi[all]<1.0.0,>=0.115.6",
+    "sentence-transformers<3.0.0,>=2.2.2",
+    "chromadb<1.0.0,>=0.5.0",
+    "torch==2.2.0",
+    "torchvision==0.17.0",
+    "playwright<2.0.0,>=1.39.0",
+    "streamlit==1.28.2",
+    "unstructured<1.0.0,>=0.11.6",
+    "selenium<5.0.0,>=4.16.0",
+    "httplib2<1.0.0,>=0.22.0",
+    "numexpr<3.0.0,>=2.8.8",
+    "streamlit-feedback<1.0.0,>=0.1.3",
+    "langchain-community<1.0.0,>=0.3.14",
+    "langchain-openai<1.0.0,>=0.3.0",
+    "langchainhub<1.0.0,>=0.1.15",
+    "pdfplumber<1.0.0,>=0.11.0",
+    "fitz<1.0.0.0,>=0.0.1.dev2",
+    "pymupdf<2.0.0,>=1.24.5",
+    "llama-index-multi-modal-llms-openai<1.0.0,>=0.1.6",
+    "llama-index<1.0.0,>=0.10.44",
+    "ultralytics<9.0.0,>=8.2.56",
+    "pillow<11.0.0",
+    "pydantic<3.0.0,>=2.10.5",
+    "openpyxl>=3.1.5",
+    "Levenshtein>=0.27.1",
+]
+requires-python = "==3.12.7"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[dependency-groups]
+dev = [
+    "notebook<7.0.0,>=6.5.4",
+]
