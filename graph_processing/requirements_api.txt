@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+openai
+Pillow
+PyMuPDF
+pandas
+python-multipart
+pydantic
