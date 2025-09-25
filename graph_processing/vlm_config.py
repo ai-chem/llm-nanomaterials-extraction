@@ -17,6 +17,9 @@ class VLMProvider(Enum):
     GLM_4_1V = "glm-4.1v"  # GLM-4.1V-9B-Thinking with vision
     GEMMA_3_27B = "gemma-3-27b"  # google/gemma-3-27b-it with vision support
     QWEN_2_5_VL = "qwen-2.5-vl"  # Qwen2.5-VL-72B-Instruct-AWQ
+    LLAMA_3_2_VISION = "llama-3.2-vision"  # Llama 3.2 Vision 11B
+    MINICPM_V = "minicpm-v"  # MiniCPM-V 2.6
+    LLAVA = "llava"  # LLaVA vision-language model
     GPT4O = "gpt-4o"
     GPT4O_VISION = "gpt-4o-2024-11-20"
 
@@ -49,7 +52,7 @@ class VLMManager:
         self.configs[VLMProvider.GLM_4_1V] = VLMConfig(
             provider=VLMProvider.GLM_4_1V,
             api_url=os.getenv("GLM_API_URL", "http://77.234.216.102:17640/19002/v1"),
-            api_key=os.getenv("GLM_API_KEY", "sk-3d96c6e0-4c88-4138-adfb-d010eb31de33"),
+            api_key=os.getenv("GLM_API_KEY", ""),
             model_name="zai-org/GLM-4.1V-9B-Thinking",
             supports_structured_output=False
         )
@@ -58,7 +61,7 @@ class VLMManager:
         self.configs[VLMProvider.QWEN_2_5_VL] = VLMConfig(
             provider=VLMProvider.QWEN_2_5_VL,
             api_url=os.getenv("QWEN_API_URL", "http://77.234.216.102:17640/19002/v1"),
-            api_key=os.getenv("QWEN_API_KEY", "sk-3d96c6e0-4c88-4138-adfb-d010eb31de33"),
+            api_key=os.getenv("QWEN_API_KEY", ""),
             model_name="Qwen/Qwen2.5-VL-72B-Instruct-AWQ",
             supports_structured_output=False,
             max_tokens=8192,  # Qwen supports longer context
@@ -69,9 +72,39 @@ class VLMManager:
         self.configs[VLMProvider.GEMMA_3_27B] = VLMConfig(
             provider=VLMProvider.GEMMA_3_27B,
             api_url=os.getenv("GEMMA_API_URL", "http://77.234.216.102:17640/19003/v1"),
-            api_key=os.getenv("GEMMA_API_KEY", "sk-3d96c6e0-4c88-4138-adfb-d010eb31de33"),
+            api_key=os.getenv("GEMMA_API_KEY", ""),
             model_name="google/gemma-3-27b-it",
             supports_structured_output=False
+        )
+        
+        # Llama 3.2 Vision configuration
+        self.configs[VLMProvider.LLAMA_3_2_VISION] = VLMConfig(
+            provider=VLMProvider.LLAMA_3_2_VISION,
+            api_url=os.getenv("LLAMA_API_URL", "http://77.234.216.102:17640/19004/v1"),
+            api_key=os.getenv("LLAMA_API_KEY", ""),
+            model_name="meta-llama/Llama-3.2-11B-Vision-Instruct",
+            supports_structured_output=False,
+            max_tokens=4096
+        )
+        
+        # MiniCPM-V configuration
+        self.configs[VLMProvider.MINICPM_V] = VLMConfig(
+            provider=VLMProvider.MINICPM_V,
+            api_url=os.getenv("MINICPM_API_URL", "http://77.234.216.102:17640/19005/v1"),
+            api_key=os.getenv("MINICPM_API_KEY", ""),
+            model_name="openbmb/MiniCPM-V-2_6",
+            supports_structured_output=False,
+            max_tokens=4096
+        )
+        
+        # LLaVA configuration
+        self.configs[VLMProvider.LLAVA] = VLMConfig(
+            provider=VLMProvider.LLAVA,
+            api_url=os.getenv("LLAVA_API_URL", "http://77.234.216.102:17640/19006/v1"),
+            api_key=os.getenv("LLAVA_API_KEY", ""),
+            model_name="llava-hf/llava-v1.6-34b-hf",
+            supports_structured_output=False,
+            max_tokens=4096
         )
         
         # GPT-4o configuration (fallback)
