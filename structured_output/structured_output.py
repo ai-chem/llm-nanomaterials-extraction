@@ -23,13 +23,16 @@ dataset_map = {
 
 load_dotenv(override=True)
 
+DEFAULT_MODEL = "openai/gpt-5.2"
+
 
 def main() -> None:
     results_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "results"))
 
     llm = ChatOpenAI(
-        model="gpt-5",
-        openai_api_key=os.getenv("OPENAI_API_KEY"),
+        model=os.getenv("STRUCTURED_OUTPUT_MODEL", DEFAULT_MODEL),
+        openai_api_key=os.getenv("OPENROUTER_KEY"),
+        openai_api_base=os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1"),
     )
 
     for dataset, experiment_class in dataset_map.items():

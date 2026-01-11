@@ -5,13 +5,15 @@ __pycache__/
 
 *.so
 .config
-
+.history/
+.pdm-python
 # Distribution / packaging
 .Python
 build/
 develop-eggs/
 dist/
 downloads/
+results/
 eggs/
 .eggs/
 lib/
@@ -138,4 +140,7 @@ cython_debug/
 /ner_data_prep/datasplits/
 /ner_data_prep/test/
 /ner_data_prep/hf_dataset/
-/ner_data_prep/hf_domain_datasets/ 
+/ner_data_prep/hf_domain_datasets/
+
+# Test data
+/test_data/
