@@ -30,11 +30,15 @@ DATASET_TO_DIR = {
 PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
 
 
+DEFAULT_MODEL = "openai/gpt-5.2"
+
+
 def main():
     client = OpenAI(
-        api_key=os.getenv("OPENAI_API_KEY"),
-        # base_url=os.getenv("OPENAI_BASE_URL"),
+        api_key=os.getenv("OPENROUTER_KEY"),
+        base_url=os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1"),
     )
+    model = os.getenv("EXTRACTION_MODEL", DEFAULT_MODEL)
 
     for dataset, pdf_articles_dir in DATASET_TO_DIR.items():
         prompt_path = PROMPTS_DIR / f"{dataset}.txt"
@@ -57,6 +61,7 @@ def main():
 
         extension = ".pdf"
         articles_files = get_files_with_extension(directory, extension)
+        
         LOGGER.info(f"Dataset '{dataset}' — files count: {len(articles_files)}")
 
         def process_article(article_file: str):
@@ -77,9 +82,8 @@ def main():
                 for _ in range(5):
                     try:
                         completion = client.chat.completions.create(
-                            model="gpt-5",
+                            model=model,
                             messages=messages,
-                            # reasoning_effort="high",
                         )
                         response_text = completion.choices[0].message.content or ""
                         break

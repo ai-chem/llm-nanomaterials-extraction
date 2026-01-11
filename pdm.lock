@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:ef0370192961e52716db0ec91b48f8a5fec1929d097027118b65b2f5760b1910"
+content_hash = "sha256:e0000546276120f4d4042eb4b612d21d0fb7102527d89a01ab94be46ec39cd9c"
 
 [[metadata.targets]]
 requires_python = "==3.12.*"
@@ -360,6 +360,17 @@ files = [
 ]
 
 [[package]]
+name = "eval-type-backport"
+version = "0.3.1"
+requires_python = ">=3.7"
+summary = "Like `typing._eval_type`, but lets older Python versions use newer typing features."
+groups = ["default"]
+files = [
+    {file = "eval_type_backport-0.3.1-py3-none-any.whl", hash = "sha256:279ab641905e9f11129f56a8a78f493518515b83402b860f6f06dd7c011fdfa8"},
+    {file = "eval_type_backport-0.3.1.tar.gz", hash = "sha256:57e993f7b5b69d271e37482e62f74e76a0276c82490cf8e4f0dffeb6b332d5ed"},
+]
+
+[[package]]
 name = "executing"
 version = "2.2.1"
 requires_python = ">=3.8"
@@ -392,6 +403,20 @@ dependencies = [
 files = [
     {file = "fqdn-1.5.1-py3-none-any.whl", hash = "sha256:3a179af3761e4df6eb2e026ff9e1a3033d3587bf980a0b1b2e1e5d08d7358014"},
     {file = "fqdn-1.5.1.tar.gz", hash = "sha256:105ed3677e767fb5ca086a0c1f4bb66ebc3c100be518f0e0d755d9eae164d89f"},
+]
+
+[[package]]
+name = "googleapis-common-protos"
+version = "1.72.0"
+requires_python = ">=3.7"
+summary = "Common protobufs used in Google APIs"
+groups = ["default"]
+dependencies = [
+    "protobuf!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<7.0.0,>=3.20.2",
+]
+files = [
+    {file = "googleapis_common_protos-1.72.0-py3-none-any.whl", hash = "sha256:4299c5a82d5ae1a9702ada957347726b167f9f8d1fc352477702a1e851ff4038"},
+    {file = "googleapis_common_protos-1.72.0.tar.gz", hash = "sha256:e55a601c1b32b52d7a3e65f43563e2aa61bcd737998ee672ac9b951cd49319f5"},
 ]
 
 [[package]]
@@ -466,6 +491,31 @@ groups = ["default", "dev"]
 files = [
     {file = "idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"},
     {file = "idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"},
+]
+
+[[package]]
+name = "importlib-metadata"
+version = "8.7.1"
+requires_python = ">=3.9"
+summary = "Read metadata from Python packages"
+groups = ["default"]
+dependencies = [
+    "zipp>=3.20",
+]
+files = [
+    {file = "importlib_metadata-8.7.1-py3-none-any.whl", hash = "sha256:5a1f80bf1daa489495071efbb095d75a634cf28a8bc299581244063b53176151"},
+    {file = "importlib_metadata-8.7.1.tar.gz", hash = "sha256:49fef1ae6440c182052f407c8d34a68f72efc36db9ca90dc0113398f2fdde8bb"},
+]
+
+[[package]]
+name = "invoke"
+version = "2.2.1"
+requires_python = ">=3.6"
+summary = "Pythonic task execution"
+groups = ["default"]
+files = [
+    {file = "invoke-2.2.1-py3-none-any.whl", hash = "sha256:2413bc441b376e5cd3f55bb5d364f973ad8bdd7bf87e53c79de3c11bf3feecc8"},
+    {file = "invoke-2.2.1.tar.gz", hash = "sha256:515bf49b4a48932b79b024590348da22f39c4942dff991ad1fb8b8baea1be707"},
 ]
 
 [[package]]
@@ -938,6 +988,30 @@ files = [
 ]
 
 [[package]]
+name = "mistralai"
+version = "1.10.0"
+requires_python = ">=3.9"
+summary = "Python Client SDK for the Mistral AI API."
+groups = ["default"]
+dependencies = [
+    "eval-type-backport>=0.2.0",
+    "httpx>=0.28.1",
+    "invoke<3.0.0,>=2.2.0",
+    "opentelemetry-api<2.0.0,>=1.33.1",
+    "opentelemetry-exporter-otlp-proto-http<2.0.0,>=1.37.0",
+    "opentelemetry-sdk<2.0.0,>=1.33.1",
+    "opentelemetry-semantic-conventions<0.60,>=0.59b0",
+    "pydantic>=2.10.3",
+    "python-dateutil>=2.8.2",
+    "pyyaml<7.0.0,>=6.0.2",
+    "typing-inspection>=0.4.0",
+]
+files = [
+    {file = "mistralai-1.10.0-py3-none-any.whl", hash = "sha256:fd37d15f077375f77cbfbbb57abed6b2c6ae0a3db39cf4815400742441b3b60a"},
+    {file = "mistralai-1.10.0.tar.gz", hash = "sha256:c92e9a5ec7057577b326d47a4b1c186f42660bccbe95167fc25c686fe658ad23"},
+]
+
+[[package]]
 name = "mistune"
 version = "3.1.4"
 requires_python = ">=3.8"
@@ -1128,6 +1202,100 @@ files = [
 ]
 
 [[package]]
+name = "opentelemetry-api"
+version = "1.38.0"
+requires_python = ">=3.9"
+summary = "OpenTelemetry Python API"
+groups = ["default"]
+dependencies = [
+    "importlib-metadata<8.8.0,>=6.0",
+    "typing-extensions>=4.5.0",
+]
+files = [
+    {file = "opentelemetry_api-1.38.0-py3-none-any.whl", hash = "sha256:2891b0197f47124454ab9f0cf58f3be33faca394457ac3e09daba13ff50aa582"},
+    {file = "opentelemetry_api-1.38.0.tar.gz", hash = "sha256:f4c193b5e8acb0912b06ac5b16321908dd0843d75049c091487322284a3eea12"},
+]
+
+[[package]]
+name = "opentelemetry-exporter-otlp-proto-common"
+version = "1.38.0"
+requires_python = ">=3.9"
+summary = "OpenTelemetry Protobuf encoding"
+groups = ["default"]
+dependencies = [
+    "opentelemetry-proto==1.38.0",
+]
+files = [
+    {file = "opentelemetry_exporter_otlp_proto_common-1.38.0-py3-none-any.whl", hash = "sha256:03cb76ab213300fe4f4c62b7d8f17d97fcfd21b89f0b5ce38ea156327ddda74a"},
+    {file = "opentelemetry_exporter_otlp_proto_common-1.38.0.tar.gz", hash = "sha256:e333278afab4695aa8114eeb7bf4e44e65c6607d54968271a249c180b2cb605c"},
+]
+
+[[package]]
+name = "opentelemetry-exporter-otlp-proto-http"
+version = "1.38.0"
+requires_python = ">=3.9"
+summary = "OpenTelemetry Collector Protobuf over HTTP Exporter"
+groups = ["default"]
+dependencies = [
+    "googleapis-common-protos~=1.52",
+    "opentelemetry-api~=1.15",
+    "opentelemetry-exporter-otlp-proto-common==1.38.0",
+    "opentelemetry-proto==1.38.0",
+    "opentelemetry-sdk~=1.38.0",
+    "requests~=2.7",
+    "typing-extensions>=4.5.0",
+]
+files = [
+    {file = "opentelemetry_exporter_otlp_proto_http-1.38.0-py3-none-any.whl", hash = "sha256:84b937305edfc563f08ec69b9cb2298be8188371217e867c1854d77198d0825b"},
+    {file = "opentelemetry_exporter_otlp_proto_http-1.38.0.tar.gz", hash = "sha256:f16bd44baf15cbe07633c5112ffc68229d0edbeac7b37610be0b2def4e21e90b"},
+]
+
+[[package]]
+name = "opentelemetry-proto"
+version = "1.38.0"
+requires_python = ">=3.9"
+summary = "OpenTelemetry Python Proto"
+groups = ["default"]
+dependencies = [
+    "protobuf<7.0,>=5.0",
+]
+files = [
+    {file = "opentelemetry_proto-1.38.0-py3-none-any.whl", hash = "sha256:b6ebe54d3217c42e45462e2a1ae28c3e2bf2ec5a5645236a490f55f45f1a0a18"},
+    {file = "opentelemetry_proto-1.38.0.tar.gz", hash = "sha256:88b161e89d9d372ce723da289b7da74c3a8354a8e5359992be813942969ed468"},
+]
+
+[[package]]
+name = "opentelemetry-sdk"
+version = "1.38.0"
+requires_python = ">=3.9"
+summary = "OpenTelemetry Python SDK"
+groups = ["default"]
+dependencies = [
+    "opentelemetry-api==1.38.0",
+    "opentelemetry-semantic-conventions==0.59b0",
+    "typing-extensions>=4.5.0",
+]
+files = [
+    {file = "opentelemetry_sdk-1.38.0-py3-none-any.whl", hash = "sha256:1c66af6564ecc1553d72d811a01df063ff097cdc82ce188da9951f93b8d10f6b"},
+    {file = "opentelemetry_sdk-1.38.0.tar.gz", hash = "sha256:93df5d4d871ed09cb4272305be4d996236eedb232253e3ab864c8620f051cebe"},
+]
+
+[[package]]
+name = "opentelemetry-semantic-conventions"
+version = "0.59b0"
+requires_python = ">=3.9"
+summary = "OpenTelemetry Semantic Conventions"
+groups = ["default"]
+dependencies = [
+    "opentelemetry-api==1.38.0",
+    "typing-extensions>=4.5.0",
+]
+files = [
+    {file = "opentelemetry_semantic_conventions-0.59b0-py3-none-any.whl", hash = "sha256:35d3b8833ef97d614136e253c1da9342b4c3c083bbaf29ce31d572a1c3825eed"},
+    {file = "opentelemetry_semantic_conventions-0.59b0.tar.gz", hash = "sha256:7a6db3f30d70202d5bf9fa4b69bc866ca6a30437287de6c510fb594878aed6b0"},
+]
+
+[[package]]
 name = "orjson"
 version = "3.11.3"
 requires_python = ">=3.9"
@@ -1311,6 +1479,23 @@ dependencies = [
 files = [
     {file = "prompt_toolkit-3.0.52-py3-none-any.whl", hash = "sha256:9aac639a3bbd33284347de5ad8d68ecc044b91a762dc39b7c21095fcd6a19955"},
     {file = "prompt_toolkit-3.0.52.tar.gz", hash = "sha256:28cde192929c8e7321de85de1ddbe736f1375148b02f2e17edd840042b1be855"},
+]
+
+[[package]]
+name = "protobuf"
+version = "6.33.3"
+requires_python = ">=3.9"
+summary = ""
+groups = ["default"]
+files = [
+    {file = "protobuf-6.33.3-cp310-abi3-win32.whl", hash = "sha256:b4046f9f2ede57ad5b1d9917baafcbcad42f8151a73c755a1e2ec9557b0a764f"},
+    {file = "protobuf-6.33.3-cp310-abi3-win_amd64.whl", hash = "sha256:1fd18f030ae9df97712fbbb0849b6e54c63e3edd9b88d8c3bb4771f84d8db7a4"},
+    {file = "protobuf-6.33.3-cp39-abi3-macosx_10_9_universal2.whl", hash = "sha256:648b7b0144222eb06cf529a3d7b01333c5f30b4196773b682d388f04db373759"},
+    {file = "protobuf-6.33.3-cp39-abi3-manylinux2014_aarch64.whl", hash = "sha256:08a6ca12f60ba99097dd3625ef4275280f99c9037990e47ce9368826b159b890"},
+    {file = "protobuf-6.33.3-cp39-abi3-manylinux2014_s390x.whl", hash = "sha256:642fce7187526c98683c79a3ad68e5d646a5ef5eb004582fe123fc9a33a9456b"},
+    {file = "protobuf-6.33.3-cp39-abi3-manylinux2014_x86_64.whl", hash = "sha256:6fa9b5f4baa12257542273e5e6f3c3d3867b30bc2770c14ad9ac8315264bf986"},
+    {file = "protobuf-6.33.3-py3-none-any.whl", hash = "sha256:c2bf221076b0d463551efa2e1319f08d4cffcc5f0d864614ccd3d0e77a637794"},
+    {file = "protobuf-6.33.3.tar.gz", hash = "sha256:c8794debeb402963fddff41a595e1f649bcd76616ba56c835645cab4539e810e"},
 ]
 
 [[package]]
@@ -1992,6 +2177,17 @@ groups = ["dev"]
 files = [
     {file = "websocket_client-1.8.0-py3-none-any.whl", hash = "sha256:17b44cc997f5c498e809b22cdf2d9c7a9e71c02c8cc2b6c56e7c2d1239bfa526"},
     {file = "websocket_client-1.8.0.tar.gz", hash = "sha256:3239df9f44da632f96012472805d40a23281a991027ce11d2f45a6f24ac4c3da"},
+]
+
+[[package]]
+name = "zipp"
+version = "3.23.0"
+requires_python = ">=3.9"
+summary = "Backport of pathlib-compatible object wrapper for zip files"
+groups = ["default"]
+files = [
+    {file = "zipp-3.23.0-py3-none-any.whl", hash = "sha256:071652d6115ed432f5ce1d34c336c0adfd6a884660d1e9712a256d3d3bd4b14e"},
+    {file = "zipp-3.23.0.tar.gz", hash = "sha256:a07157588a12518c9d4034df3fbbee09c814741a33ff63c05fa29d26a2404166"},
 ]
 
 [[package]]
